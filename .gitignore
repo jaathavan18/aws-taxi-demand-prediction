@@ -1,0 +1,36 @@
+# Ignore SSH directory
+.ssh/
+
+# Ignore JupyterLab workspace files
+.jupyter/
+
+# Ignore virtual environments in streamlit
+streamlit-eb2/.venv/
+
+# Taxi db too big
+taxi_data.db
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IPython profile
+.ipython/
+
+# Ignore local Jupyter configurations
+.local/share/jupyter/
+
+# Ignore npm logs
+.npm/_logs/
+
+# Ignore Sagemaker SQL Editor Cache
+.sagemaker_sql_editor_api_cache/
+
+# Ignore other temporary or system files
+.virtual_documents/
+.cache/
+
+# More useless files
+.bash_history
+.bashrc
+.gitconfig
+.lesshst
