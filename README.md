@@ -52,13 +52,11 @@ This project builds an end-to-end taxi demand forecasting platform leveraging AW
 
 ```
 ├── lambda/
-│   ├── ingest_data/
-│   ├── trigger_glue/
+│   ├── raw_data_glue.py
 ├── glue_jobs/
-│   ├── transform_data/
+│   ├── iadFilterAndTransform.py
 ├── models/
-│   ├── lightgbm_model_1/
-│   ├── lightgbm_model_2/
+│   ├── s3 bucket/
 ├── streamlit_app/
 │   └── dashboard/
 ├── sql_queries/
