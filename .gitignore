@@ -7,9 +7,6 @@
 # Ignore virtual environments in streamlit
 streamlit-eb2/.venv/
 
-# Taxi db too big
-taxi_data.db
-
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
