@@ -81,8 +81,7 @@ This project builds an end-to-end taxi demand forecasting platform leveraging AW
 
 - Real-time demand forecasts  
 - Metrics: MAE, MAPE per location  
-- Location selection dropdown  
-- Model comparison (Lag vs FFT vs Prophet-based models)
+- Location selection dropdown
 
 ---
 
